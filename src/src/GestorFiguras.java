@@ -20,18 +20,18 @@ public class GestorFiguras {
 
             // horrible uso de instanceof
             if (f instanceof Circulo) {
-                Circulo c = (Circulo) f;
-                System.out.println("Area circulo: " + c.calcularArea());
+                Circulo Circulo = (Circulo) f;
+                System.out.println("Area circulo: " + Circulo.calcularArea());
             }
 
             if (f instanceof Rectangulo) {
-                Rectangulo r = (Rectangulo) f;
-                System.out.println("Area rectangulo: " + r.calcularArea());
+                Rectangulo Rectangulo = (Rectangulo) f;
+                System.out.println("Area rectangulo: " + Rectangulo.calcularArea());
             }
 
             if (f instanceof Triangulo) {
-                Triangulo t = (Triangulo) f;
-                System.out.println("Area triangulo: " + t.calcularArea());
+                Triangulo Triangulo = (Triangulo) f;
+                System.out.println("Area triangulo: " + Triangulo.calcularArea());
             }
         }
     }
@@ -41,18 +41,18 @@ public class GestorFiguras {
         for (Object f : figuras) {
 
             if (f instanceof Circulo) {
-                Circulo c = (Circulo) f;
-                System.out.println("Perimetro circulo: " + c.calcularPerimetro());
+                Circulo Circulo = (Circulo) f;
+                System.out.println("Perimetro circulo: " + Circulo.calcularPerimetro());
             }
 
             if (f instanceof Rectangulo) {
-                Rectangulo r = (Rectangulo) f;
-                System.out.println("Perimetro rectangulo: " + r.calcularPerimetro());
+                Rectangulo Rectangulo = (Rectangulo) f;
+                System.out.println("Perimetro rectangulo: " + Rectangulo.calcularPerimetro());
             }
 
             if (f instanceof Triangulo) {
-                Triangulo t = (Triangulo) f;
-                System.out.println("Perimetro triangulo: " + t.calcularPerimetro());
+                Triangulo Triangulo = (Triangulo) f;
+                System.out.println("Perimetro triangulo: " + Triangulo.calcularPerimetro());
             }
         }
     }
