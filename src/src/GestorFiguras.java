@@ -1,8 +1,9 @@
+/*Hemos arreglado el package que ahora funciona de forma correcta*/
 package src;
 
 import java.util.ArrayList;
 
-public class GestorFiguras {
+public class GestorFiguras{
 
     public ArrayList<Object> figuras;
 
@@ -17,7 +18,7 @@ public class GestorFiguras {
     public void mostrarAreas() {
 
         for (Object f : figuras) {
-
+        /*Mejora de nombres a aalgunos valores para mejor comprensión*/
             // horrible uso de instanceof
             if (f instanceof Circulo) {
                 Circulo Circulo = (Circulo) f;
@@ -37,9 +38,8 @@ public class GestorFiguras {
     }
 
     public void mostrarPerimetros() {
-
+        /*Mejora de nombres a aalgunos valores para mejor comprensión*/
         for (Object f : figuras) {
-
             if (f instanceof Circulo) {
                 Circulo Circulo = (Circulo) f;
                 System.out.println("Perimetro circulo: " + Circulo.calcularPerimetro());

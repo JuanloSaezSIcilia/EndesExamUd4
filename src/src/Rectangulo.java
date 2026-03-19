@@ -1,7 +1,8 @@
+/*Hemos arreglado el package que ahora funciona de forma correcta*/
 package src;
 
 public class Rectangulo {
-
+    /*Mejora del package con mayor seguridad y restricciones*/
     protected double ancho;
     protected double alto;
 

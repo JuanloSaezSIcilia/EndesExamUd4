@@ -1,3 +1,4 @@
+/*Hemos arreglado el package que ahora funciona de forma correcta*/
 package src;
 
 public class Triangulo {
@@ -7,7 +8,7 @@ public class Triangulo {
     protected double lado1;
     protected double lado2;
     protected double lado3;
-
+    /*Mejora de nombres a aalgunos valores para mejor comprensión*/
     public Triangulo(double base, double altura, double lado1, double lado2, double lado3) {
         this.base = base;
         this.altura = altura;

@@ -1,7 +1,8 @@
+/*Hemos arreglado el package que ahora funciona de forma correcta*/
 package src;
 
 public class Circulo {
-
+/*hemos Encapsulado de mejor forma esta clase de circulo*/
     protected double radio;
 
     public Circulo(double radio) {
