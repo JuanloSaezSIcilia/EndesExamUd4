@@ -2,11 +2,11 @@ package src;
 
 public class Triangulo {
 
-    public double base;
-    public double altura;
-    public double lado1;
-    public double lado2;
-    public double lado3;
+    protected double base;
+    protected double altura;
+    protected double lado1;
+    protected double lado2;
+    protected double lado3;
 
     public Triangulo(double base, double altura, double l1, double l2, double l3) {
         this.base = base;

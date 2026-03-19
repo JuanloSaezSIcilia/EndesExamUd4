@@ -2,8 +2,8 @@ package src;
 
 public class Rectangulo {
 
-    public double ancho;
-    public double alto;
+    protected double ancho;
+    protected double alto;
 
     public Rectangulo(double ancho, double alto) {
         this.ancho = ancho;

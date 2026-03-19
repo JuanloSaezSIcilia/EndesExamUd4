@@ -2,7 +2,7 @@ package src;
 
 public class Circulo {
 
-    public double radio;
+    protected double radio;
 
     public Circulo(double radio) {
         this.radio = radio;
